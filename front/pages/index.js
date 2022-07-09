@@ -1,9 +1,22 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Livro from '../components/livro';
 
 export default function Home() {
+
   return (
-    <h1>Naej é foda</h1>
+    <div>
+      <div>
+        Titulo
+      </div>
+      <div>
+        <Livro idLivro="3"  />
+        <Livro idLivro="5"/>
+        <Livro />
+      </div>
+
+    </div>
+
+
   )
 }
+
+//<Book bookId="56597884" />
