@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react';
 import { dados } from "../../assistents/Popular_1";
+import PropTypes from 'prop-types';
 
 const Livro = forwardRef(({idLivro }, ref) => (
 
@@ -20,12 +21,13 @@ const Livro = forwardRef(({idLivro }, ref) => (
 ));
 
 Livro.propTypes = {
-    idLivro: String,
-    
-  };
+    idLivroInfo: PropTypes.shape({
+        idLivro: PropTypes.string
+    })
+};
   
 Livro.defaultProps = {
     idLivro: "0",
-  };
+};
 
 export default Livro;
