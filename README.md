@@ -4,7 +4,6 @@
 https://nextjs.org/docs
 
 # Comandos
-yarn add next
+npm install
 
-yarn dev
-
+npm start
