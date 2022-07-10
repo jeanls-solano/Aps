@@ -1,4 +1,6 @@
-import Livro from '../components/livro';
+import LinhaDeLivros from "../components/LinhaDeLivros/index";
+import style from '../styles/components/modal/style.module.scss';
+
 
 export default function Home() {
 
@@ -7,14 +9,13 @@ export default function Home() {
       <div>
         Titulo
       </div>
-      <div>
-        <Livro idLivro="3"  />
-        <Livro idLivro="5"/>
-        <Livro />
-      </div>
+      <section className={style.listas}>  
+        <div>
+          <LinhaDeLivros titulo="romance"/>
+        </div>
+      </section>
 
     </div>
-
 
   )
 }

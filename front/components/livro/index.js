@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { dados } from "../../assistents/Popular_1";
+import { dados } from "../../assistents/Popular";
 import PropTypes from 'prop-types';
 
 const Livro = forwardRef(({idLivro }, ref) => (

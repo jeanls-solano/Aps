@@ -1,7 +1,13 @@
-export default function Lista(){
-    return(
-        <div>
-            <h1>Lista</h1>            
-        </div>
-    );
+import LinhaDeLivros from "../../components/LinhaDeLivros";
+
+
+export default function Lista() {
+
+  return (
+    <div>
+        <section >
+          <LinhaDeLivros titulo="romance"/>
+        </section>
+    </div>
+  );
 }
